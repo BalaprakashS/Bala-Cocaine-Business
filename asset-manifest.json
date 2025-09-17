@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Bala-Cocaine-Business/static/css/main.2aa1e1bb.css",
+    "main.js": "/Bala-Cocaine-Business/static/js/main.e6e7a831.js",
+    "static/js/239.06664100.chunk.js": "/Bala-Cocaine-Business/static/js/239.06664100.chunk.js",
+    "static/js/977.7d915fe1.chunk.js": "/Bala-Cocaine-Business/static/js/977.7d915fe1.chunk.js",
+    "static/js/455.c1516245.chunk.js": "/Bala-Cocaine-Business/static/js/455.c1516245.chunk.js",
+    "static/js/453.a76230d3.chunk.js": "/Bala-Cocaine-Business/static/js/453.a76230d3.chunk.js",
+    "index.html": "/Bala-Cocaine-Business/index.html",
+    "main.2aa1e1bb.css.map": "/Bala-Cocaine-Business/static/css/main.2aa1e1bb.css.map",
+    "main.e6e7a831.js.map": "/Bala-Cocaine-Business/static/js/main.e6e7a831.js.map",
+    "239.06664100.chunk.js.map": "/Bala-Cocaine-Business/static/js/239.06664100.chunk.js.map",
+    "977.7d915fe1.chunk.js.map": "/Bala-Cocaine-Business/static/js/977.7d915fe1.chunk.js.map",
+    "455.c1516245.chunk.js.map": "/Bala-Cocaine-Business/static/js/455.c1516245.chunk.js.map",
+    "453.a76230d3.chunk.js.map": "/Bala-Cocaine-Business/static/js/453.a76230d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa1e1bb.css",
+    "static/js/main.e6e7a831.js"
+  ]
+}
