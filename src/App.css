@@ -1,0 +1,98 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+h2 {
+  margin-top: 0;
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #0d6efd;
+}
+
+.btn-block {
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-block:hover {
+  background-color: #0d6efd;
+  transform: scale(1.05);
+}
+
+.my-4 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.card {
+  margin-top: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header h2 {
+  margin: 0;
+}
+
+.card-body ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.list-group-item h5 {
+  margin: 0;
+}
+
+.list-group-item p {
+  margin: 0;
+}
+
+.cart-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.cart-button:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+a, a:hover, a:focus,
+.btn-link, .btn-link:hover, .btn-link:focus {
+  text-decoration: none !important;
+}

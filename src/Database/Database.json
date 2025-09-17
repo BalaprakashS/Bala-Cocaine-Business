@@ -1,0 +1,26 @@
+{
+  "admins": {
+    "Xv3bfyWzCnaf1owPvzzoYZipM6H2": true
+  },
+  "products": {
+    "1": {
+      "description": "A flavorsome sandwich perfectly seasoned mixed vegetable.",
+      "id": 1,
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/99c5ceb1cd3bf29b4a2b3dad0d9f1704",
+      "initialPrice": 30,
+      "name": "Sandwich",
+      "price": 50,
+      "quantity": 4
+    },
+    "2": {
+      "description": "Rich shot of espresso balanced with steamed milk and light layer of foam. Hot - large [300ml] - 147.5 kcal / regular [250 ml] - 100.3 kcal. Allergen - contains milk an average active adult requires 2000 kcal energy per day, however, calorie needs may vary.",
+      "id": 2,
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/86f50c744c8201d1d962639b07022b36",
+      "initialPrice": 15,
+      "name": "Coffee",
+      "price": 30,
+      "quantity": 10
+    }
+  },
+  "sales": {}
+}

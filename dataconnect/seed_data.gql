@@ -1,0 +1,28 @@
+mutation SeedData @auth(level: USER) {
+  movie_upsertMany(data: [
+    {
+      id: "550e8400-e29b-41d4-a716-446655440000",
+      title: "Inception",
+      genres: ["sci-fi"],
+      runtime: 148,
+      year: 2010,
+      createdAt_expr: "request.time"
+    },
+    {
+      id: "550e8400-e29b-41d4-a716-446655440001",
+      title: "The Matrix",
+      genres: ["action", "sci-fi"],
+      runtime: 136,
+      year: 1999,
+      createdAt_expr: "request.time"
+    },
+    {
+      id: "550e8400-e29b-41d4-a716-446655440002",
+      title: "Interstellar",
+      genres: ["sci-fi", "adventure"],
+      runtime: 169,
+      year: 2014,
+      createdAt_expr: "request.time"
+    }
+  ])
+}

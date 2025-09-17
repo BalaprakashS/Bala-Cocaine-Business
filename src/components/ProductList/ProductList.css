@@ -1,0 +1,22 @@
+.product-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .row-cols-md-3 {
+    --bs-rows: 4;
+    --bs-columns: 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-cols-md-3 {
+    --bs-rows: 3;
+    --bs-columns: 4;
+  }
+}
+
+.pr {
+  cursor: pointer;
+}

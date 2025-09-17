@@ -1,0 +1,33 @@
+mutation CreateUser @auth(level: USER) {
+  user_insert(data: {
+    displayName: "New User",
+    email: "newuser@example.com",
+    photoUrl: "https://example.com/newuser.jpg"
+  })
+}
+
+query ListMovies @auth(level: PUBLIC) {
+  movies {
+    id
+    title
+    year
+  }
+}
+
+mutation UpdateReview($id: UUID!, $text: String) @auth(level: USER) {
+  review_update(key: {id: $id}, data: {
+    text: $text,
+    updatedAt_expr: "request.time"
+  })
+}
+
+query GetWatchList @auth(level: USER) {
+  watches(where: {userId: {eq_expr: "auth.uid"}}) {
+    id
+    movie {
+      title
+      year
+    }
+    watchDate
+  }
+}
