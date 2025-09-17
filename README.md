@@ -1,8 +1,3 @@
-Got it 👍 Here’s a ready-to-use **`README.md`** for your project. You can copy-paste it directly and tweak details (like repo URL or live demo link) if needed:
-
----
-
-````markdown
 # 🍴 Bala SRM Goods – Canteen Management System
 
 A web-based **Canteen Management System** built with **React + Firebase**.  
@@ -138,22 +133,9 @@ Use these rules for safe access:
 
 ---
 
-## 📸 Screenshots
-
-*(Add your UI screenshots here)*
-
----
-
 ## 👨‍💻 Developer
 
 Developed by **Bala Prakash**
 📧 [balaprakash2901@gmail.com](mailto:balaprakash2901@gmail.com)
 
 ---
-
-```
-
----
-
-👉 Do you want me to also create a **shorter version** (just features + setup) for GitHub front page, or keep this **detailed deployment-ready README**?
-```
